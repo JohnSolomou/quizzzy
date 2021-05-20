@@ -26,6 +26,9 @@ p {
 }
 .hero {
   color: #fff;
+  display: block;
+  margin-top: 20px;
+  margin-left: 100px;
 }
 .white {
   background-color: white;
@@ -81,9 +84,7 @@ h1 .lside {
 .lh {
   line-height: 01.6;
 }
-.sm {
-  font-size: 6px;
-}
+
 .rside {
   margin-right: 0;
   float: right;
