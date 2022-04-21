@@ -71,7 +71,7 @@ function students() {
 }
 
 function check() {
-  var a = documentgetElementById("studentanswer").value;
+  var a = document.getElementById("studentanswer").value;
   var answer = localStorage.getItem(`answer ${count}`);
   if (a == answer) {
     document.getElementById("err").innerHTML = "correct";
